@@ -31,6 +31,7 @@
   gap: 1.75rem;
   padding: 6rem 12vw 6rem 10vw;
   background: #fffcf2;
+  width: 100vw;
 }
 
 .hero header,
@@ -197,7 +198,7 @@ section.chapter {
   max-width: 460px;
   display: block;
   padding: 20px;
-  margin: 40vh 0; /* 居中滚动触发 */
+  margin: 40vh 0; 
   background: rgba(255, 255, 255, 0.88);
   backdrop-filter: blur(3px);
   border-radius: 14px;
@@ -338,8 +339,6 @@ section.chapter p.small {
   border-radius: 0;
   background: #fffcf2;
   box-shadow: none;
-  margin-left: -10vw;
-  margin-right: -12vw;
 }
 
 #conclusion.chapter.active {
@@ -505,7 +504,7 @@ footer p {
     flex-direction: row;
     align-items: stretch;
     gap: 4rem;
-    padding: 6rem 10vw;
+    padding: 6rem 6vw;
   }
 
   .hero-content {
